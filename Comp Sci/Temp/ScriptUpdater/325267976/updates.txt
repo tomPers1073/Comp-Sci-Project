@@ -1,0 +1,5 @@
+Temp/ScriptUpdater/325267976/1545290511_SunShafts.cs => Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+Temp/ScriptUpdater/325267976/1867378858_BloomAndFlares.cs => Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+Temp/ScriptUpdater/325267976/1776406021_Bloom.cs => Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+Temp/ScriptUpdater/325267976/872265839_DepthOfField.cs => Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+Temp/ScriptUpdater/325267976/1380095755_DepthOfField.cs => Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/DepthOfField.cs

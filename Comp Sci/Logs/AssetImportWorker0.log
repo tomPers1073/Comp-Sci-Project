@@ -1,0 +1,239 @@
+Unity Editor version:    2021.3.24f1 (cf10dcf7010d)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.5 (Build 21G531)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64729
+Successfully changed project path to: /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
+/Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4664227328] Host "[IP] 192.168.200.133 [Port] 0 [Flags] 2 [Guid] 1189086301 [EditorId] 1189086301 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4664227328] Host "[IP] 192.168.200.133 [Port] 0 [Flags] 2 [Guid] 1189086301 [EditorId] 1189086301 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 84.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56433
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000949 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1845ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (574ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.6 MB). Loaded Objects now: 3654.
+Memory consumption went from 141.6 MB to 141.0 MB.
+Total: 4.368429 ms (FindLiveObjects: 0.293255 ms CreateObjectMapping: 0.170664 ms MarkObjects: 3.458452 ms  DeleteObjects: 0.444649 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 170351.305414 seconds.
+  path: Assets/Scenes/Ceiling.mat
+  artifactKey: Guid(33b8418bbacd44d93afdca16f6d2649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ceiling.mat using Guid(33b8418bbacd44d93afdca16f6d2649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f630231e85b0b337da85ad5327a89ea') in 0.318919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Scenes/Table
+  artifactKey: Guid(2f6faee9bb6300545ad64558957beb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Table using Guid(2f6faee9bb6300545ad64558957beb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ed0f6d770723e9516874ed97195afd') in 0.001206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.472852 seconds.
+  path: Assets/Scenes/Table/Model
+  artifactKey: Guid(b058f75a8c0a27a4285ca747213d5698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Table/Model using Guid(b058f75a8c0a27a4285ca747213d5698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4090aa9ab78ac052a409254191b521') in 0.003008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.521149 seconds.
+  path: Assets/Scenes/Table/Model/Table.FBX
+  artifactKey: Guid(91b21410e82326c41829a7cd5ef7ffae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Table/Model/Table.FBX using Guid(91b21410e82326c41829a7cd5ef7ffae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c808d84810072a552eb61e3f2fd349') in 0.205589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.229140 seconds.
+  path: Assets/Scenes/Table/Model/Materials
+  artifactKey: Guid(bd6987762ea978d46a99e40f92ee789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Table/Model/Materials using Guid(bd6987762ea978d46a99e40f92ee789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd52f102ebb06e11d1930dd7c0aecaae') in 0.003730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239357 seconds.
+  path: Assets/Scenes/Table/Model/Materials/_LP_LPwire_135110008.mat
+  artifactKey: Guid(57ac420b708ead140a2b704e7eb0dddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Table/Model/Materials/_LP_LPwire_135110008.mat using Guid(57ac420b708ead140a2b704e7eb0dddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a27a5b0353e383d2cef72142096fd5') in 0.011494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 434.660309 seconds.
+  path: Assets/Table and chair
+  artifactKey: Guid(0df22a9061fbd4233b777eeb6b97b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair using Guid(0df22a9061fbd4233b777eeb6b97b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377b822cd4c569a64e6c1b6bb28195e7') in 0.002959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.375177 seconds.
+  path: Assets/Table and chair/Chair
+  artifactKey: Guid(af83ac62f226ff546bf7907d1ede8a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair using Guid(af83ac62f226ff546bf7907d1ede8a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e345b24a56050904d90ad2b8fb036e1') in 0.001964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.983513 seconds.
+  path: Assets/Scenes/Chair/Model
+  artifactKey: Guid(85e6158c727b8394c982d41427f2e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chair/Model using Guid(85e6158c727b8394c982d41427f2e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b9ba5f34d2760f755d7c47cc808a31') in 0.002963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044826 seconds.
+  path: Assets/Scenes/Chair/Model/Chair.obj
+  artifactKey: Guid(356323afbc2ef4945a31fd5474ae5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chair/Model/Chair.obj using Guid(356323afbc2ef4945a31fd5474ae5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4029284e7eed746b07ab113d6973a21f') in 2.412917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8844.004103 seconds.
+  path: Assets/Scenes/Chair/Model/Chair.obj
+  artifactKey: Guid(356323afbc2ef4945a31fd5474ae5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chair/Model/Chair.obj using Guid(356323afbc2ef4945a31fd5474ae5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b575972f82b69d5c2cdfdf1f13dad2') in 0.286663 seconds 
