@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60453
+63998
 Successfully changed project path to: /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
 /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/tompaul/Documents/GitHub/Comp-Sci-P
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4770608640] Host "[IP] 192.168.200.133 [Port] 0 [Flags] 2 [Guid] 1007383388 [EditorId] 1007383388 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4559795712] Host "[IP] 192.168.200.133 [Port] 0 [Flags] 2 [Guid] 719788558 [EditorId] 719788558 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4770608640] Host "[IP] 192.168.200.133 [Port] 0 [Flags] 2 [Guid] 1007383388 [EditorId] 1007383388 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4559795712] Host "[IP] 192.168.200.133 [Port] 0 [Flags] 2 [Guid] 719788558 [EditorId] 719788558 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 84.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,39 +73,39 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56630
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56367
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.006954 seconds.
+Registered in 0.005952 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
+- Completed reload, in  0.984 seconds
 Domain Reload Profiling:
-	ReloadAssembly (991ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (208ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (230ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (401ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (245ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (186ms)
 				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -113,53 +113,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002107 seconds.
+Registered in 0.015896 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.169 seconds
+- Completed reload, in  1.411 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2171ms)
-		BeginReloadAssembly (293ms)
+	ReloadAssembly (1412ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (1741ms)
-			LoadAssemblies (242ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1111ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (622ms)
+			SetupTypeCache (416ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (137ms)
-			SetupLoadedEditorAssemblies (698ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (426ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (539ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 3655.
-Memory consumption went from 141.9 MB to 141.3 MB.
-Total: 6.625363 ms (FindLiveObjects: 0.544290 ms CreateObjectMapping: 0.598621 ms MarkObjects: 4.745948 ms  DeleteObjects: 0.734345 ms)
+Memory consumption went from 142.0 MB to 141.3 MB.
+Total: 3.819418 ms (FindLiveObjects: 0.284225 ms CreateObjectMapping: 0.215327 ms MarkObjects: 2.876499 ms  DeleteObjects: 0.442015 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,289 +173,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 210201.286661 seconds.
-  path: Assets/FoodAndGrocery/Items/Apple/AppleUV.png
-  artifactKey: Guid(e2f081473b6d87b4c9ecd64a61035edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Apple/AppleUV.png using Guid(e2f081473b6d87b4c9ecd64a61035edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49de664a1695a2418fbca8e5215c58f') in 0.247878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.664657 seconds.
-  path: Assets/FoodAndGrocery/Items/BeerBox/BeerBoxUV.png
-  artifactKey: Guid(72ec3d40277069b459b4ea2444632653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/BeerBox/BeerBoxUV.png using Guid(72ec3d40277069b459b4ea2444632653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d012d8d50a1ccea61a86559383e571') in 0.026515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.761098 seconds.
-  path: Assets/FoodAndGrocery/Items/Basil/BasilUV.png
-  artifactKey: Guid(0f5772c8e9b20004182bad909b4bbd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Basil/BasilUV.png using Guid(0f5772c8e9b20004182bad909b4bbd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed3cb17892a5d53e25010716b0f3dc') in 0.020564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 157.202264 seconds.
-  path: Assets/FoodAndGrocery/Items/SaladBowl/SaladBowlUV.png
-  artifactKey: Guid(4b55ac39995b8ef4c9a97d5d94718fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/SaladBowl/SaladBowlUV.png using Guid(4b55ac39995b8ef4c9a97d5d94718fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7db683720d5827cde1f0b83b9ade127') in 0.024693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.442978 seconds.
-  path: Assets/FoodAndGrocery/Items/Sandwich/SandwichUV.png
-  artifactKey: Guid(c1bcd0b020f7cb746a4fc16e6d3d8ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Sandwich/SandwichUV.png using Guid(c1bcd0b020f7cb746a4fc16e6d3d8ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc4adfb2b92ddb8cff004c0c38140f4') in 0.018414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.480842 seconds.
-  path: Assets/FoodAndGrocery/Items/SoapBottle/SoapBottleUV.png
-  artifactKey: Guid(e153df3ba3bd6454aae6ff25569ec91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/SoapBottle/SoapBottleUV.png using Guid(e153df3ba3bd6454aae6ff25569ec91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde7fe038783965545e536533867c6c9') in 0.015705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.591358 seconds.
-  path: Assets/FoodAndGrocery/Items/Soil/SoilUV.png
-  artifactKey: Guid(240a159d5bbb0804fb612545f33ace1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Soil/SoilUV.png using Guid(240a159d5bbb0804fb612545f33ace1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4497dbd5da059938429e07b118e30a30') in 0.019910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.555778 seconds.
-  path: Assets/FoodAndGrocery/Items/Tomato/TomatoUV.png
-  artifactKey: Guid(c94926c734cc70c448707668120c662e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Tomato/TomatoUV.png using Guid(c94926c734cc70c448707668120c662e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fcadd7a69e8b15bf7fe63f04bbbbad') in 0.024862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.802705 seconds.
-  path: Assets/FoodAndGrocery/Items/Strawberry/StrawberryUV.png
-  artifactKey: Guid(bd90744193e90ff4aa5b974da57b7030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Strawberry/StrawberryUV.png using Guid(bd90744193e90ff4aa5b974da57b7030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe34c58adcf7aaeaa2d933be3e9b8f4') in 0.019077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.028367 seconds.
-  path: Assets/FoodAndGrocery/Items/SprayBottle/SprayBottleUV.png
-  artifactKey: Guid(774988c4d8fa3d842b63f7c5f9e50f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/SprayBottle/SprayBottleUV.png using Guid(774988c4d8fa3d842b63f7c5f9e50f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f71c687bd0706ff31eb00f54e90e0d') in 0.019286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 141.260793 seconds.
-  path: Assets/FoodAndGrocery/Items/Mozzarella/MozzarellaUV.png
-  artifactKey: Guid(7968c1aae1fe0a041b63b196d0fb036f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Mozzarella/MozzarellaUV.png using Guid(7968c1aae1fe0a041b63b196d0fb036f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaf2df6510c559a688925ffd867bf5f') in 0.023986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.590953 seconds.
-  path: Assets/FoodAndGrocery/Items/Mushroom/MushroomUV.png
-  artifactKey: Guid(937030fb9c7df174cb3df85bb05e521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Mushroom/MushroomUV.png using Guid(937030fb9c7df174cb3df85bb05e521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37d2cce96e18061549d31ea65ca1bd7') in 0.024402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.951753 seconds.
-  path: Assets/FoodAndGrocery/Items/Meat/MeatUV.png
-  artifactKey: Guid(dd76d2dd5ffa1154e9e391c9ccbc1c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Meat/MeatUV.png using Guid(dd76d2dd5ffa1154e9e391c9ccbc1c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5525272dc3ce15edf458ef028ae509') in 0.026068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 125.145012 seconds.
-  path: Assets/FoodAndGrocery/Items/MenuBowl/MenuBowlUV.png
-  artifactKey: Guid(4f8187902f773234e907be9a5bbec514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/MenuBowl/MenuBowlUV.png using Guid(4f8187902f773234e907be9a5bbec514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b7135f95316a6f8f06f9493d49da01') in 0.018091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.314938 seconds.
-  path: Assets/FoodAndGrocery/Items/Dough/DoughUV.png
-  artifactKey: Guid(a601a74e92bc949438574e2ef7501196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Dough/DoughUV.png using Guid(a601a74e92bc949438574e2ef7501196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40e50371ee6cd69f4f48b865d1fdd72') in 0.029904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/FoodAndGrocery/Items/Dough/DoughUVBlue.png
-  artifactKey: Guid(d791bae1090d7384ea5e51d807f0fe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Dough/DoughUVBlue.png using Guid(d791bae1090d7384ea5e51d807f0fe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b81a93114790f19173cb536f46abbf') in 0.017669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.790795 seconds.
-  path: Assets/FoodAndGrocery/Items/Chips/ChipsUV.png
-  artifactKey: Guid(f2b4a7df309ef00449e6faeebceed2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Chips/ChipsUV.png using Guid(f2b4a7df309ef00449e6faeebceed2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7470c410c1450897aaed7a3c35ed5846') in 0.027522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000626 seconds.
-  path: Assets/FoodAndGrocery/Items/Chips/ChipsUVRed.png
-  artifactKey: Guid(59e13620ba78865478f8ac1003b342ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Chips/ChipsUVRed.png using Guid(59e13620ba78865478f8ac1003b342ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20e4094ef6f8a25c6c05ef3290bf4bd') in 0.026645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.603887 seconds.
-  path: Assets/FoodAndGrocery/Items/Chips/Prefabs/Chips_Red.prefab
-  artifactKey: Guid(7b3b0749a34775f4285204c83f3d10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Chips/Prefabs/Chips_Red.prefab using Guid(7b3b0749a34775f4285204c83f3d10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaba3c3cddfe597698d89c39c8f8357') in 0.286535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.088045 seconds.
-  path: Assets/FoodAndGrocery/Items/Cheese/CheeseUV.png
-  artifactKey: Guid(ddad09bff857f384e8035d21b2de2be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Cheese/CheeseUV.png using Guid(ddad09bff857f384e8035d21b2de2be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1218ecbe5442d6664632c9360891b761') in 0.020926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 105.383379 seconds.
-  path: Assets/FoodAndGrocery/Items/Cucumber/CucumberUV.png
-  artifactKey: Guid(3723b07983f5a9444a26fab8466d019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Cucumber/CucumberUV.png using Guid(3723b07983f5a9444a26fab8466d019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08c76e437207e1be427351a8858f540') in 0.017018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.828163 seconds.
-  path: Assets/FoodAndGrocery/Items/Leek/LeekUV.png
-  artifactKey: Guid(b58890a779714994285ffe6fcdc3e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Leek/LeekUV.png using Guid(b58890a779714994285ffe6fcdc3e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73a6f3113a366823ef86d6fee412b25') in 0.019302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.202127 seconds.
-  path: Assets/FoodAndGrocery/ExamplesScene/PickNickBlanket.png
-  artifactKey: Guid(83ee71725b7284c4c87ee85e632c4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/ExamplesScene/PickNickBlanket.png using Guid(83ee71725b7284c4c87ee85e632c4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e161545e4160845dd844cde7d27119') in 0.024161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.857574 seconds.
-  path: Assets/FoodAndGrocery/Items/Avocado/AvocadoUV.png
-  artifactKey: Guid(e38d7d321d62b5e4aa20f841dcec68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Avocado/AvocadoUV.png using Guid(e38d7d321d62b5e4aa20f841dcec68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36458d5aa3a18d5ce83808d916b432d') in 0.014722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.151200 seconds.
-  path: Assets/FoodAndGrocery/Items/Banana/bananaUV.png
-  artifactKey: Guid(2cd316c588568ad4da11c91955818d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Banana/bananaUV.png using Guid(2cd316c588568ad4da11c91955818d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd574f94a0e40ae2b1109a257230e66c') in 0.017716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.742147 seconds.
-  path: Assets/FoodAndGrocery/Items/Bread/BreadUV.png
-  artifactKey: Guid(b7bc3fb0b422b49488e0ddc39d0f963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Bread/BreadUV.png using Guid(b7bc3fb0b422b49488e0ddc39d0f963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6764402130dbfaa454841661d7e29fe1') in 0.022022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.312660 seconds.
-  path: Assets/FoodAndGrocery/Items/Broccoli/BroccoliUV.png
-  artifactKey: Guid(3a215157a7eef294694e9fccc06310bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Broccoli/BroccoliUV.png using Guid(3a215157a7eef294694e9fccc06310bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52a776ba50716728504a335f843e522') in 0.021905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.896100 seconds.
-  path: Assets/FoodAndGrocery/Items/Can/CanUV.png
-  artifactKey: Guid(0a662b33766bcad429ccdb2a944fc3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Can/CanUV.png using Guid(0a662b33766bcad429ccdb2a944fc3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61df8a2de4a863f2d7b36c6cfe5ae6fa') in 0.022666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/FoodAndGrocery/Items/Can/CanUVBlack.png
-  artifactKey: Guid(00341b9e98c44b6429ae275958f78fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Can/CanUVBlack.png using Guid(00341b9e98c44b6429ae275958f78fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438f8d1a43bf61694703a96c244df268') in 0.017337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/FoodAndGrocery/Items/Can/CanUVOrange.png
-  artifactKey: Guid(6fa5ab0ad5622ac458a227defda269ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Can/CanUVOrange.png using Guid(6fa5ab0ad5622ac458a227defda269ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a7e6d6bd539580ab85a4a6f2af6ba2') in 0.011910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.485250 seconds.
-  path: Assets/FoodAndGrocery/Items/Carrot/CarrotUV.png
-  artifactKey: Guid(9f236f62fd4578e44b79bc05734e533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Carrot/CarrotUV.png using Guid(9f236f62fd4578e44b79bc05734e533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6d9556815855a53b61aa1bf062c898') in 0.019818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.797124 seconds.
-  path: Assets/FoodAndGrocery/Items/Chips/Materials/ChipsUVRed.mat
-  artifactKey: Guid(322f1e69a440f3142a8dfdfd9b00e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Chips/Materials/ChipsUVRed.mat using Guid(322f1e69a440f3142a8dfdfd9b00e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054db658cf2849359a02f2cdf7979261') in 0.184653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 161.303951 seconds.
-  path: Assets/FoodAndGrocery/Items/Apple/Materials/Stick.mat
-  artifactKey: Guid(c6be255c1425f6e4d9a49a40d9f32910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Apple/Materials/Stick.mat using Guid(c6be255c1425f6e4d9a49a40d9f32910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295a7def85773e725cae95703e373151') in 0.015041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.270874 seconds.
-  path: Assets/FoodAndGrocery/Items/Joghurt/JoghurtUV.png
-  artifactKey: Guid(b2a5d591795bfcf4f91963d0da942e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Joghurt/JoghurtUV.png using Guid(b2a5d591795bfcf4f91963d0da942e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c09f78c652a08ad47e7910bda830436') in 0.025342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/FoodAndGrocery/Items/Joghurt/JoghurtUVBlue.png
-  artifactKey: Guid(5df1a6885e21ad84784a53e4aafcb316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Joghurt/JoghurtUVBlue.png using Guid(5df1a6885e21ad84784a53e4aafcb316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cb931974784b96cb62d3e150535026') in 0.015399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.773097 seconds.
-  path: Assets/FoodAndGrocery/Items/Milk/MilkUV.png
-  artifactKey: Guid(12961847b7e865d42b26f9453632e534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Milk/MilkUV.png using Guid(12961847b7e865d42b26f9453632e534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fd3c8b6ccac60d4ac3d3c4c86e9ebc') in 0.022696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.246408 seconds.
-  path: Assets/FoodAndGrocery/Items/Onion/OnionUV.png
-  artifactKey: Guid(43bab40b1f7abf246b884739157909a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Onion/OnionUV.png using Guid(43bab40b1f7abf246b884739157909a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a979eb8557030e4dd82c1cfbd1f123c') in 0.022499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.227352 seconds.
-  path: Assets/FoodAndGrocery/Items/Pear/PearUV.png
-  artifactKey: Guid(5a4ad03a445a8fe49a0bccbb96db3c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Pear/PearUV.png using Guid(5a4ad03a445a8fe49a0bccbb96db3c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a012db031f45efd7dabfd0ba24b313') in 0.021510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.326634 seconds.
-  path: Assets/FoodAndGrocery/Items/Pepperoni/PepperoniUV.png
-  artifactKey: Guid(36a5586df5e8f7d4ab7a35955a6e2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Pepperoni/PepperoniUV.png using Guid(36a5586df5e8f7d4ab7a35955a6e2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048fdc2422011294f74fc9122674e0ae') in 0.019508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.639172 seconds.
-  path: Assets/FoodAndGrocery/Items/PetBottles/BottleUV.png
-  artifactKey: Guid(b950edfe266d09d47ad3eabb9cb9c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/PetBottles/BottleUV.png using Guid(b950edfe266d09d47ad3eabb9cb9c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900c4aa6f1d68101baced788393db05') in 0.019430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/FoodAndGrocery/Items/PetBottles/BottleUVFanta.png
-  artifactKey: Guid(cb2f72885dccadd419b7bc1fcaa29a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/PetBottles/BottleUVFanta.png using Guid(cb2f72885dccadd419b7bc1fcaa29a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809fe2115fc9627b11ab9d33e895f3b6') in 0.018266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/FoodAndGrocery/Items/PetBottles/BottleUVCoke.png
-  artifactKey: Guid(de2c2c8f5fa152b449506630969fb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/PetBottles/BottleUVCoke.png using Guid(de2c2c8f5fa152b449506630969fb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4ec6463b45c27b52510f4a6b01b7a1') in 0.030306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.932433 seconds.
-  path: Assets/Materials/IMG_2003.mat
-  artifactKey: Guid(732ef61ea4c53484aa27b671c2b0dbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/IMG_2003.mat using Guid(732ef61ea4c53484aa27b671c2b0dbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc61dd9a50178d8951e8d6dfec559d') in 0.021636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Materials/IMG_2005.mat
-  artifactKey: Guid(36f44b563230d4fd096e86158d92aef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/IMG_2005.mat using Guid(36f44b563230d4fd096e86158d92aef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec284af2f23351e30fbcf3d5db44468c') in 0.028621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Materials/Screen Shot 2023-05-09 at 11.22.17 AM.mat
-  artifactKey: Guid(a033c1069383141de96aef7988dbc2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Screen Shot 2023-05-09 at 11.22.17 AM.mat using Guid(a033c1069383141de96aef7988dbc2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c870559afc094c7ea1bb0fbacfb0954') in 0.020887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.751091 seconds.
-  path: Assets/FoodAndGrocery/Items/PetBottles/Prefabs/Bottle_Santa.prefab
-  artifactKey: Guid(0427c64d8fdbee04f9a40fdde44b082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/PetBottles/Prefabs/Bottle_Santa.prefab using Guid(0427c64d8fdbee04f9a40fdde44b082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09b709b7de1473be366f12d5565a2e') in 0.442515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 426.667439 seconds.
-  path: Assets/FoodAndGrocery/Items/Can/Prefabs/Can_Green.prefab
-  artifactKey: Guid(b8bd4aa3b27ef654c98401e83da31507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Can/Prefabs/Can_Green.prefab using Guid(b8bd4aa3b27ef654c98401e83da31507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196008c0bdf022697583fa290b109c9c') in 0.022900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/FoodAndGrocery/Items/Can/Prefabs/Can_Red.prefab
-  artifactKey: Guid(98567582113585e468a4235b7ed41b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodAndGrocery/Items/Can/Prefabs/Can_Red.prefab using Guid(98567582113585e468a4235b7ed41b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bbf40a9d305f6f64111d5ee996c4d2') in 0.027415 seconds 
+  Time since last request: 213579.293637 seconds.
+  path: Assets/Models/Trash Bin/Model/trash.fbx
+  artifactKey: Guid(39bcb2bc55ab6c14a8d3f24fc5e07575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Trash Bin/Model/trash.fbx using Guid(39bcb2bc55ab6c14a8d3f24fc5e07575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bf4e9550c73356b37b5d12b33b046f') in 1.173215 seconds 
