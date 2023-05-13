@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55580
+58071
 Successfully changed project path to: /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
 /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/tompaul/Documents/GitHub/Comp-Sci-P
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4783367680] Host "[IP] 30.30.30.112 [Port] 0 [Flags] 2 [Guid] 4030280855 [EditorId] 4030280855 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4668167680] Host "[IP] 30.30.30.112 [Port] 0 [Flags] 2 [Guid] 2147470234 [EditorId] 2147470234 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4783367680] Host "[IP] 30.30.30.112 [Port] 0 [Flags] 2 [Guid] 4030280855 [EditorId] 4030280855 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4668167680] Host "[IP] 30.30.30.112 [Port] 0 [Flags] 2 [Guid] 2147470234 [EditorId] 2147470234 [Version] 1048832 [Id] OSXEditor(0,Toms-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 115.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 133.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,93 +73,93 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005153 seconds.
+Registered in 0.005503 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 105.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  1.189 seconds
 Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (609ms)
-			LoadAssemblies (197ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (209ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (339ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013834 seconds.
+Registered in 0.011720 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tompaul/Documents/GitHub/Comp-Sci-Project/Comp Sci/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.967 seconds
+- Completed reload, in  1.449 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1968ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (1440ms)
-			LoadAssemblies (219ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (673ms)
+			SetupTypeCache (415ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
+			RebuildScriptCaches (74ms)
 			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (324ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 3655.
 Memory consumption went from 142.1 MB to 141.5 MB.
-Total: 5.343130 ms (FindLiveObjects: 0.380457 ms CreateObjectMapping: 0.265835 ms MarkObjects: 4.092218 ms  DeleteObjects: 0.603115 ms)
+Total: 5.271392 ms (FindLiveObjects: 0.377156 ms CreateObjectMapping: 0.384360 ms MarkObjects: 3.875768 ms  DeleteObjects: 0.632204 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,127 +173,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 251755.941703 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_windowhole.fbx
-  artifactKey: Guid(9fd0561331f06b6489557667f2672447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_windowhole.fbx using Guid(9fd0561331f06b6489557667f2672447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f77b95f811c50bfad05d4f08c524b3f') in 0.386117 seconds 
+  Time since last request: 254899.243719 seconds.
+  path: Assets/PolygonalMind/LowPolyOffice/Props/Materials/metal.mat
+  artifactKey: Guid(59f7e7ebc565806469169157dd769854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonalMind/LowPolyOffice/Props/Materials/metal.mat using Guid(59f7e7ebc565806469169157dd769854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371df2faf1d93b295ef6cfe6f2d03f36') in 0.337801 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Wall_Standar.fbx
-  artifactKey: Guid(8f747c61c6f15754b99fb57be237571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Wall_Standar.fbx using Guid(8f747c61c6f15754b99fb57be237571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4a9033e29a3d22c6ba5841819fe3bd') in 0.027726 seconds 
+  Time since last request: 0.000168 seconds.
+  path: Assets/PolygonalMind/LowPolyOffice/Props/Materials/mesh_desk_01-wood.mat
+  artifactKey: Guid(175b8467178ad1544ac598dde1432766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonalMind/LowPolyOffice/Props/Materials/mesh_desk_01-wood.mat using Guid(175b8467178ad1544ac598dde1432766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f1bf797a69b1c0637e5880cd421cad') in 0.018624 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_mouse_01.fbx
-  artifactKey: Guid(df376604cbc0d73419a5eb96e06a6a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_mouse_01.fbx using Guid(df376604cbc0d73419a5eb96e06a6a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830b71ae143f527e65e800a58db3e0a7') in 0.023846 seconds 
+  Time since last request: 0.000116 seconds.
+  path: Assets/PolygonalMind/LowPolyOffice/Props/Materials/tech.mat
+  artifactKey: Guid(7649336b692da6b48ad9d02ce143c193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonalMind/LowPolyOffice/Props/Materials/tech.mat using Guid(7649336b692da6b48ad9d02ce143c193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67f7eddbd9eca853e00587c5fc43653') in 0.024508 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_sofa.fbx
-  artifactKey: Guid(ad168f78fcb2d214c978f0f537eba8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_sofa.fbx using Guid(ad168f78fcb2d214c978f0f537eba8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedf67b90f94a89cb77a876c1eed1d2d') in 0.088738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_microwave.fbx
-  artifactKey: Guid(780a4a4a4fca95148b5981b43a567a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_microwave.fbx using Guid(780a4a4a4fca95148b5981b43a567a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68827815a9f60f002f388e30af3e352') in 0.055242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_tv_01.fbx
-  artifactKey: Guid(98b918f337566884ca93f0222c5e24bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_tv_01.fbx using Guid(98b918f337566884ca93f0222c5e24bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa322f8073f16ccbda9288e070be626') in 0.024526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_printer_01.fbx
-  artifactKey: Guid(4543e83de58b4c646827eff79fcdd061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_printer_01.fbx using Guid(4543e83de58b4c646827eff79fcdd061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5429017223353a5ae2f3844b85667c02') in 0.022774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Wall_T.fbx
-  artifactKey: Guid(75c63ae4d0c94504b8bbdc24c0e1883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Wall_T.fbx using Guid(75c63ae4d0c94504b8bbdc24c0e1883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b9bf1d1cd4a94c7c6cbf1f5ec07ec1') in 0.036853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_smoke.fbx
-  artifactKey: Guid(1402fcdded917d3428188a154ea6ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_smoke.fbx using Guid(1402fcdded917d3428188a154ea6ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428613cc54648e02d43dc1dbb0997f25') in 0.044362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_plant_a_01.fbx
-  artifactKey: Guid(6ce5771815230b44385950608b58d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_plant_a_01.fbx using Guid(6ce5771815230b44385950608b58d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ad2a67532a973c1c239dd11339b418') in 0.030754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_table_a_01.fbx
-  artifactKey: Guid(6f2edcb5c8690d446b62b285782079db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_table_a_01.fbx using Guid(6f2edcb5c8690d446b62b285782079db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82dc6f54d12ae7988b2aebbfc35588b') in 0.027102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_shredder.fbx
-  artifactKey: Guid(6b947d46edee463439593ad16657fc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_shredder.fbx using Guid(6b947d46edee463439593ad16657fc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fab98c4c26dc5d7800502d8e1133423') in 0.025923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_PC_01.fbx
-  artifactKey: Guid(49ddef57dd87da2489028c9f6666f2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_PC_01.fbx using Guid(49ddef57dd87da2489028c9f6666f2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fbcfa3bdda56a0ca018591adc096d0') in 0.030907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_photo.fbx
-  artifactKey: Guid(5e7c9835ef504ec4b946488ea4724292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_photo.fbx using Guid(5e7c9835ef504ec4b946488ea4724292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8111b8f5e33aafc41e942b121d3c6902') in 0.032265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_officechair.fbx
-  artifactKey: Guid(a3f3f21035a7fec4d8d213a85df99633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_officechair.fbx using Guid(a3f3f21035a7fec4d8d213a85df99633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6abe9a7c15561bc447c306727893a42') in 0.028846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_window.fbx
-  artifactKey: Guid(1e861bfed19ef9e419528c4862abb705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_window.fbx using Guid(1e861bfed19ef9e419528c4862abb705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfa8e994cca24e9bdd0440fb23d5ac8') in 0.087682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_mug.fbx
-  artifactKey: Guid(191dcd3db83f64342943a4b8dd6c6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_mug.fbx using Guid(191dcd3db83f64342943a4b8dd6c6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c576602c94302698fe5e371461fba5ca') in 0.027978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Lingote.fbx
-  artifactKey: Guid(a58013f0177348545a4cf949d94789c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Lingote.fbx using Guid(a58013f0177348545a4cf949d94789c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd91f0742ff0111c744fcad28e563852') in 0.023881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Wall_Door.fbx
-  artifactKey: Guid(48b546e2cb88f2c4e9a16cc087bed287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Wall_Door.fbx using Guid(48b546e2cb88f2c4e9a16cc087bed287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e919b93ffc566bf13fc23a1d61d10f2') in 0.028138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/mesh_stamp.fbx
-  artifactKey: Guid(3ace4874a506ab845b660c5c2fb50b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/mesh_stamp.fbx using Guid(3ace4874a506ab845b660c5c2fb50b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7d8c6bdd41bea08296c339d6df2139') in 0.029482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Stapler.fbx
-  artifactKey: Guid(d8a4a5ae3c6eec741b082105b15c8ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonalMind/LowPolyOffice/Props/Mesh_Stapler.fbx using Guid(d8a4a5ae3c6eec741b082105b15c8ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad1cdf554b636944c447ed44fbd2278') in 0.047236 seconds 
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonalMind/LowPolyOffice/Props/Materials/screen.mat
+  artifactKey: Guid(8d43a69e0ee7c1b45a3d5750b9b8143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonalMind/LowPolyOffice/Props/Materials/screen.mat using Guid(8d43a69e0ee7c1b45a3d5750b9b8143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47a849769f55c698778e73ec9259bf4') in 0.018304 seconds 
