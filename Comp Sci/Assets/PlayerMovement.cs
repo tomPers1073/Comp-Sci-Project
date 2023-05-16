@@ -20,9 +20,13 @@ public class PlayerMovement : MonoBehaviour
         float xMove = Input.GetAxisRaw("Horizontal"); // d key changes value to 1, a key changes value to -1
         float zMove = Input.GetAxisRaw("Vertical"); // w key changes value to 1, s key changes value to -1
         //float YMove = Input.GetKeyDown(KeyCode.Space); // w key changes value to 1, s key changes value to -1
-
-        rb.velocity = new Vector3(-xMove, rb.velocity.y, -zMove) * speed; // Creates velocity in direction of value equal to keypress (WASD). rb.velocity.y deals with falling + jumping by setting velocity to y. 
-
-
+        if(Input.GetKeyDown("space")){
+            rb.velocity = new Vector3(-xMove * 2, 6, -zMove * 2) * speed;
+        }
+        else
+        {
+            rb.velocity = new Vector3(-xMove * 2, rb.velocity.y, -zMove * 2) * speed;
+        }
+         // Creates velocity in direction of value equal to keypress (WASD). rb.velocity.y deals with falling + jumping by setting velocity to y. 
     }
 }
