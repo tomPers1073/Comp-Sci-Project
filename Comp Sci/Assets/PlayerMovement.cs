@@ -17,11 +17,48 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Quaterion
         float xMove = Input.GetAxisRaw("Horizontal"); // d key changes value to 1, a key changes value to -1
         float zMove = Input.GetAxisRaw("Vertical"); // w key changes value to 1, s key changes value to -1
-        //float YMove = Input.GetKeyDown(KeyCode.Space); // w key changes value to 1, s key changes value to -1
-        if(Input.GetKeyDown("space")){
+        float ySpin = Input.GetAxisRaw("Horizontal2");
+        
+        // if(Input.GetKeyDown(KeyCode.UpArrow)){
+        //     float zMove = 1;
+        // }
+        // if (Input.GetKeyDown(KeyCode.DownArrow))
+        // {
+        //     float zMove = -1;
+        // }
+        // else
+        // {
+        //     float zMove = 0;
+        // }
+       
+        // if(Input.GetKeyDown(KeyCode.RightArrow)){
+        //     float xMove = 1;
+        // }
+        // else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        // {
+        //     float xMove = -1;
+        // }
+        // else
+        // {
+        //     float xMove = 0;
+        // }
+
+        // if(Input.GetKeyDown(KeyCode.UpArrow)){
+        //     float ySpin = 1;
+        // }
+        // else if (Input.GetKeyDown(KeyCode.DownArrow))
+        // {
+        //     float ySpin = -1;
+        // }
+        // else
+        // {
+        //     float ySpin = 0;
+        // }
+
+        if(Input.GetKeyDown(KeyCode.Space)){
             rb.velocity = new Vector3(-xMove * mult, 6, -zMove * mult) * speed;
         }
         else
