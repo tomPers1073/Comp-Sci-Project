@@ -347,6 +347,8 @@
 "Assets/hello.cs"
 "Assets/NewBehaviourScript.cs"
 "Assets/PlayerMovement.cs"
+"Assets/RecordBaby.cs"
+"Assets/Scenes/Follow_Player.cs"
 "Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/AntiAliasing.cs"
 "Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/Common/ImageEffectHelper.cs"
 "Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/Common/RenderTexureUtility.cs"
